@@ -1,9 +1,62 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: rgb(42,40,57);
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#fighterswrapper{
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+#fighterswrapper p{
+    color: white;
+}
+
+img{
+    max-width: 400px;
+    max-height: 250px;
+    height:auto;
+    width:auto;
+}
+
+.healthwrapper{
+    width: 400px;
+    height: 20px;
+    background-color: red;
+    margin-bottom: 15px;
+}
+
+.health{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(47, 255, 95);
+}
+
+#textwrapper{
+    display: inline-block;
+    background-color:cornflowerblue;
+    width: 80%;
+    max-height: 15em;
+    margin-left: 10%;
+    overflow: scroll;
+    overflow-anchor: auto;
 }
 
 #optionswrapper{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 20px;
 }
